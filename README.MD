@@ -3,7 +3,7 @@
 
 ColorC is an easy-to-use, single-header C/C++ library for printing rich text to the terminal
 
-# Installation
+## Installation
 
 To install ColorC, download the library's header `colorc.h` [here](https://github.com/gugu256/ColorC/blob/main/colorc.h) And add it to your C/C++ project
 
@@ -15,7 +15,7 @@ Then, inside of your C/C++ file, add this code snippet:
 
 And you're good to go!
 
-# Usage
+## Usage
 
 The `demo.c` file is an demo file showing you how to use ColorC, check it out to learn `ColorC`
 
