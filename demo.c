@@ -20,6 +20,14 @@ int main() {
     printf("%sCyan background%s\n", BACK_CYAN, RESET_ALL);  
     printf("%sWhite background%s\n\n", BACK_WHITE, RESET_ALL);
 
-    printf("%s %sYou can also get crazy with it%s%s%s!!%s\n", BACK_GREEN, FORE_RED, RESET_ALL, BACK_BLUE, FORE_YELLOW, RESET_ALL);
+    printf("%sBold text%s\n", STYLE_BOLD, RESET_ALL);
+    printf("%sDim text%s\n", STYLE_DIM, RESET_ALL);
+    printf("%sItalic text%s\n", STYLE_ITALIC, RESET_ALL);
+    printf("%sUnderlined text%s\n", STYLE_UNDERLINE, RESET_ALL);
+    printf("%sBlinking text%s\n", STYLE_BLINK, RESET_ALL);
+    printf("%sFramed text%s\n", STYLE_FRAMED, RESET_ALL);
+    printf("%sEncircled text%s\n", STYLE_ENCIRCLED, RESET_ALL);  
+
+    printf("%s%s%s%s%sYou can also get crazy with it%s%s%s!!%s\n", BACK_GREEN, FORE_RED, STYLE_UNDERLINE, STYLE_BOLD, STYLE_BLINK, RESET_ALL, BACK_BLUE, FORE_YELLOW, RESET_ALL);
     return 0;
 }

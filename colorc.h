@@ -1,6 +1,16 @@
 #include <stdio.h>
 
 const char RESET_ALL[] = "\033[0m";
+const char RESET_BACK[] = "\033[49m";
+const char RESET_FORE[] = "\033[39m";
+
+const char STYLE_BOLD[] = "\033[1m";
+const char STYLE_DIM[] = "\033[2m";
+const char STYLE_ITALIC[] = "\033[3m";
+const char STYLE_UNDERLINE[] = "\033[4m";
+const char STYLE_BLINK[] = "\033[5m";
+const char STYLE_FRAMED[] = "\033[51m";
+const char STYLE_ENCIRCLED[] = "\033[52m";
 
 const char FORE_BLACK[] = "\033[30m";
 const char FORE_RED[] = "\033[31m";
