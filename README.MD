@@ -29,3 +29,14 @@ ColorC supports 8 colors for background and foreground. These colors are :
 - Magenta
 - Cyan
 - White
+
+It also supports 7 styles (some of them are not supported everywhere though)
+The styles are :
+
+- Bold
+- Dim
+- Italic
+- Underline
+- Blink
+- Framed
+- Encircled
