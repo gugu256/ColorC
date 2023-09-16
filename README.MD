@@ -17,6 +17,15 @@ And you're good to go!
 
 # Usage
 
-*The `demo.c` file is an demo file showing you how to use ColorC*
+The `demo.c` file is an demo file showing you how to use ColorC, check it out to learn `ColorC`
 
-ColorC supports (TODO)
+ColorC supports 8 colors for background and foreground. These colors are :
+   
+- Black
+- Red
+- Green
+- Yellow
+- Blue
+- Magenta
+- Cyan
+- White
